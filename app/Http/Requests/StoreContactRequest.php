@@ -25,7 +25,7 @@ class StoreContactRequest extends FormRequest
     {
         return [
             'name' => 'required|string|max:255',
-            'email' => 'required|email',
+            'email' => 'required|email|Unique:contacts,email',
             'number' => 'required|string|max:20',
             'bio' => 'nullable|string',
           'user_id' => 'required|integer|exists:users,id',

@@ -10,7 +10,7 @@ Route::post('/login', [AuthController::class, 'login'])->name('login.post');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 # ---------------- ROOT REDIRECT ----------------
-Route::get('/', fn() => redirect()->route('contacts.list'));
+Route::get('/', fn() => redirect()->route('contacts.index'));
 
 # ---------------- CONTACT ROUTES ----------------
 

@@ -9,6 +9,7 @@ use App\Http\Requests\UpdateContactRequest;
 use App\Models\Contact;
 use App\Models\User;
 use Illuminate\Support\Facades\Storage;
+use App\Jobs\TestQueueJob;
 
 class ContactController extends Controller
 {
@@ -18,11 +19,11 @@ class ContactController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-     public function __construct()
-    {
-        // apply auth middleware where contact details (email/number) need to be visible:
-        $this->middleware('auth')->only(['create','store','edit','update','destroy','toggleActive','trashed','restore','forceDelete']);
-    }
+    //  public function __construct()
+    // {
+    //     // apply auth middleware where contact details (email/number) need to be visible:
+    //     $this->middleware('auth')->only(['create','store','edit','update','destroy','toggleActive','trashed','restore','forceDelete']);
+    // }
 
         public function index(Request $request)
     {
@@ -51,6 +52,14 @@ class ContactController extends Controller
             $query->whereDate('created_at','<=', $to);
         }
 
+         // QUEUE JOB (background)
+    TestQueueJob::dispatch([
+        'q'      => $request->input('q'),
+        'status' => $request->input('status'),
+        'from'   => $request->input('from_date'),
+        'to'     => $request->input('to_date'),
+        'ip'     => $request->ip(),
+    ]);
         $contacts = $query->orderBy('id','desc')->paginate(20)->withQueryString();
 
         return view('contacts.index', compact('contacts'));

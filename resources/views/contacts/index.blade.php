@@ -65,9 +65,7 @@
     </tbody>
 </table>
 
-<!-- <div style="margin-top:12px">
-    {{ $contacts->links() }}
-</div> -->
+
 @endsection
 
 @push('scripts')
