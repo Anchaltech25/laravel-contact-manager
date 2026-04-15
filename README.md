@@ -40,7 +40,7 @@ This project demonstrates strong backend development skills including authentica
 
 
 ## Login Page
-<img width="1321" height="427" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/6d9926ab-f8f3-44b6-b21b-ae37b7d17837" />
+<img width="1309" height="821" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/af30d5e2-aecc-4d83-9702-66512b49bc30" />
 
 ## edit page 
 <img width="1276" height="834" alt="contectManger-edit" src="https://github.com/user-attachments/assets/96f5a856-99bd-4693-a31a-0ef99cf63d1c" />
