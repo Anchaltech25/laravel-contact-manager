@@ -30,7 +30,8 @@ This project demonstrates strong backend development skills including authentica
 ## 📸 Screenshots
 
 ### Contact List  (before loggedin)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f985d959-08e9-4359-8ba7-f36e8b698448" />
+<img width="1288" height="820" alt="contactManager-home" src="https://github.com/user-attachments/assets/8f9be7cd-ab20-4366-8981-e8b7743dc509" />
+
 ## after login)
 <img width="1284" height="828" alt="contactManager-loggedin-Home" src="https://github.com/user-attachments/assets/53906728-6039-4158-bef9-14ae310e9f55" />
 
