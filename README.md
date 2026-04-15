@@ -35,15 +35,16 @@ This project demonstrates strong backend development skills including authentica
 ## after login)
 <img width="1284" height="828" alt="contactManager-loggedin-Home" src="https://github.com/user-attachments/assets/53906728-6039-4158-bef9-14ae310e9f55" />
 
-### Add Contact
+## Add Contact
 <img width="1277" height="818" alt="contactManger-create" src="https://github.com/user-attachments/assets/e0f0eaf7-12f9-49b2-9be6-6aa6839dd77d" />
 
 
-### Login Page
+## Login Page
 <img width="1321" height="427" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/6d9926ab-f8f3-44b6-b21b-ae37b7d17837" />
 
 ## edit page 
-<img width="1321" height="427" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/7e657591-b0c7-4705-826e-eddeaba85153" />
+<img width="1276" height="834" alt="contectManger-edit" src="https://github.com/user-attachments/assets/96f5a856-99bd-4693-a31a-0ef99cf63d1c" />
+
 
 ## view page
 <img width="1275" height="642" alt="contactManager-view" src="https://github.com/user-attachments/assets/aca0a9db-cdaa-48ee-a013-f98ac8218b5f" />
