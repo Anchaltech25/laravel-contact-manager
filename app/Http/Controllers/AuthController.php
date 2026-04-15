@@ -39,4 +39,10 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
         return redirect()->route('contacts.index');
     }
+
+    public function showRegister()
+    {
+        $roles = \App\Models\Role::all();
+        return view('auth.register', compact('roles'));
+    }
 }

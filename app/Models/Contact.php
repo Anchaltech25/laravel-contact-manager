@@ -13,7 +13,7 @@ class Contact extends Model
      use SoftDeletes;
 
     protected $fillable = [
-        'name','email','number','bio','user_id','is_active','profile_image'
+        'name','email','number','bio','user_id','is_active','profile_image','deleted_at','role_id'
     ];
 
     protected $casts = [
