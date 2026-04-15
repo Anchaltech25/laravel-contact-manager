@@ -80,6 +80,7 @@
                             Login
                         </a>
                     @endauth
+<<<<<<< HEAD
 @auth
     @if(auth()->user()->role_id == 1)
         <a href="{{ route('users.index') }}" 
@@ -93,6 +94,8 @@
         </a>
     @endif
 @endauth
+=======
+>>>>>>> 466fbf1cafe517d6ab45f08cbe35c9ef956746e7
                 </nav>
 
                 @auth
