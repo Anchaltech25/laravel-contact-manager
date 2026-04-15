@@ -1,4 +1,4 @@
-<img width="1321" height="427" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/aa80b229-8f37-4fca-b68c-6e2c85af6238" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6deba611-2dd0-427e-a67e-b45c5e871a9a" /><img width="1288" height="820" alt="contactManager-home" src="https://github.com/user-attachments/assets/d2956735-2066-4be5-ae4d-e45d847610f0" /># Laravel Contact Manager
+# Laravel Contact Manager
 
 A backend-focused Contact Management System built using Laravel.  
 This project demonstrates strong backend development skills including authentication, authorization, CRUD operations, queues, and database relationships.
