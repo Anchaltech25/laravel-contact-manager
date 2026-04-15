@@ -45,6 +45,9 @@ This project demonstrates strong backend development skills including authentica
 ## edit page 
 <img width="1321" height="427" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/7e657591-b0c7-4705-826e-eddeaba85153" />
 
+## view page
+<img width="1275" height="642" alt="contactManager-view" src="https://github.com/user-attachments/assets/aca0a9db-cdaa-48ee-a013-f98ac8218b5f" />
+
 
 ---
 
