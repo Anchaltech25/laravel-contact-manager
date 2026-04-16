@@ -46,7 +46,7 @@ class UserController extends Controller
 
        public function show($id)
 {
-    $user = User::with('role')->findOrFail($id); // ✅ eager load role
+    $user = User::with('role')->findOrFail($id); //  eager load role
 
 
     $roles = \App\Models\Role::all();
@@ -56,7 +56,7 @@ class UserController extends Controller
 
 public function edit($id)
 {
-    $user = User::with('role')->findOrFail($id); // ✅ eager load role
+    $user = User::with('role')->findOrFail($id); // eager load role
     $roles = \App\Models\Role::all();
     // dd($user);
     return view('users.edit', compact('user', 'roles'));

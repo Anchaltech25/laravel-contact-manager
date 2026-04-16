@@ -34,7 +34,6 @@
                 Login
             </button>
 
-<<<<<<< HEAD
             <!-- ✅ REGISTER LINK ADDED -->
             <div style="text-align:center; margin-top:15px;">
                 <span style="font-size:14px;">Don't have an account?</span>
@@ -44,8 +43,6 @@
                 </a>
             </div>
 
-=======
->>>>>>> 466fbf1cafe517d6ab45f08cbe35c9ef956746e7
         </form>
     </div>
 

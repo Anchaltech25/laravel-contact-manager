@@ -31,7 +31,41 @@
             <td>{{ $contact->id }}</td>
             <td>
                 <div class="card">
-                    <img src="{{ $contact->profile_image_url }}" alt="" class="avatar">
+                                @php
+                    $colors = ['#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899'];
+                    $color = $colors[$contact->id % count($colors)];
+                    $nameParts = explode(' ', $contact->name);
+                    $initials = strtoupper(substr($nameParts[0], 0, 1) . (isset($nameParts[1]) ? substr($nameParts[1], 0, 1) : ''));
+                @endphp
+
+                <div style="width:40px; height:40px; position:relative;">
+                    
+                    <!-- IMAGE -->
+                    <img src="{{ $contact->profile_image_url }}" 
+                        style="width:40px; height:40px; border-radius:50%; object-fit:cover;"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <!-- FALLBACK INITIAL -->
+                    <div style="
+                        width:40px;
+                        height:40px;
+                        border-radius:50%;
+                        background:{{ $color }};
+                        color:white;
+                        display:none;
+                        align-items:center;
+                        justify-content:center;
+                        font-size:14px;
+                        font-weight:600;
+                        position:absolute;
+                        top:0;
+                        left:0;
+                    ">
+                        {{ $initials }}
+                    </div>
+
+                </div>
+
                     <div>
                         <div><a href="{{ route('contacts.show', $contact) }}">{{ $contact->name }}</a></div>
                         <div class="small">
