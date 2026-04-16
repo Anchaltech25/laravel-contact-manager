@@ -5,15 +5,26 @@ This project demonstrates strong backend development skills including authentica
 
 ---
 
-## 🚀 Features
+##  Features
 
 - User Authentication (Login / Register)
 - Role-Based Authorization
 - Contact Management (CRUD)
 - Search & Filters (name, email, status, date range)
 - Pagination for large datasets
-- Eloquent ORM Relationships
+
+###  Advanced / UX Features
+- Profile Image Upload for Users & Contacts
+- Fallback Avatar with Initials & Dynamic Colors
+- User Profile Page with Associated Contacts (One-to-Many Relationship)
+- Toggle Contact Status (Active/Inactive via AJAX)
+- Clean UI with Card-based Layout
+
+###  Backend Features
+- Eloquent ORM Relationships (User ↔ Contacts)
 - Jobs & Queues for background processing
+- Form Validation & Error Handling
+
 
 ---
 
@@ -27,7 +38,7 @@ This project demonstrates strong backend development skills including authentica
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Contact List  (before loggedin)
 <img width="1288" height="820" alt="contactManager-home" src="https://github.com/user-attachments/assets/8f9be7cd-ab20-4366-8981-e8b7743dc509" />
@@ -49,10 +60,15 @@ This project demonstrates strong backend development skills including authentica
 ## view page
 <img width="1275" height="642" alt="contactManager-view" src="https://github.com/user-attachments/assets/aca0a9db-cdaa-48ee-a013-f98ac8218b5f" />
 
+## user profile view with deafult image and users image 
+
+<img width="1299" height="509" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/dcc003df-d715-4985-a5b3-c676ed0dbe0c" />
+
+<img width="1286" height="784" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/57a85464-a897-45e0-9857-fa2150b89482" />
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Anchaltech25/laravel-contact-manager
