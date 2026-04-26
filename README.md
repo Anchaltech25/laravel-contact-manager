@@ -4,6 +4,14 @@ A backend-focused Contact Management System built using Laravel.
 This project demonstrates strong backend development skills including authentication, authorization, CRUD operations, queues, and database relationships.
 
 ---
+## Architecture Highlights
+
+- Implemented **Event-Driven Architecture** using Laravel Events & Listeners
+- Used **Queue System** for background processing (asynchronous tasks)
+- Designed **Role-Based Access Control (RBAC)** for secure user permissions
+- Built **optimized query filtering system** for scalable data handling
+- Implemented **AJAX-based UI updates** for real-time interaction without page reloads
+- Structured relational database (User → Contacts) following best practices
 
 ##  Features
 
